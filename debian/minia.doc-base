@@ -1,0 +1,9 @@
+Document: minia
+Title: Debian minia Manual
+Author: Genscale Team
+Abstract: This manual describes what minia tools are
+ and how they can be used.
+Section: Science/Biology
+
+Format: postscript
+Files: /usr/share/doc/minia/manual.pdf.gz

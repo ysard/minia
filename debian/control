@@ -1,0 +1,19 @@
+Source: minia
+Section: science
+Priority: optional
+Maintainer: Pierre Vignet <pierre.vignet.contact@caramail.fr>
+Build-Depends: debhelper (>= 9), cmake
+Standards-Version: 3.9.5
+Homepage: https://github.com/GATB/minia
+#Vcs-Git: git://anonscm.debian.org/collab-maint/minia.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/minia.git;a=summary
+
+Package: minia
+Architecture: any
+Recommends: gatbcore-tools
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Short-read assembler based on a de Bruijn graph
+ Minia is a short-read assembler based on a de Bruijn graph, 
+ capable of assembling a human genome on a desktop computer in a day. 
+ The output of Minia is a set of contigs. Minia produces results of 
+ similar contiguity and accuracy to other de Bruijn assemblers (e.g. Velvet).
